@@ -69,41 +69,39 @@ Na foto acima vemos os índices, então quando falamos emails[0] estamos dizendo
 
 ###### Corpo do email e anexos
 
-![image-20220105161954202](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105161954202.png)
+![image-20220105161954202](https://user-images.githubusercontent.com/97065309/148283823-3c209752-bfd4-441a-82b4-c78d0d71220d.png)
 
 Dentro desta variável iremos preencher com o corpo do e-mail, e se nescessário iremos adicionar um anexo a ele.
 
 Se adicionar aspas triplas no inicio e final podemos adicionar quebras de linha no texto.
 
-![image-20220105162340342](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105162340342.png)
+![image-20220105162340342](https://user-images.githubusercontent.com/97065309/148283908-2c750f86-dd63-4d39-9dd8-b1806703692e.png)
 
-![image-20220105162438287](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105162438287.png)
+![image-20220105162438287](https://user-images.githubusercontent.com/97065309/148283935-de15bdb1-85a5-496b-86d0-c358fbbd7647.png)
 
 Logo após adicionar o corpo do seu e-mail é possível também é possível adicionar um anexo, logo após as ultimas 3 aspas, adicionando uma virgula, podemos adicionar o nome do arquivo.
 
 Porém o arquivo deve estar nas mesma pasta de seu projeto de python.
 
-![image-20220105163102720](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105163102720.png)
+![image-20220105163102720](https://user-images.githubusercontent.com/97065309/148284072-409e8969-7a2c-420f-a6b4-fe7ac986c6db.png)
 
 Agora com todos os arquivos na mesma pasta podemos adiciona-lo.
 
-![image-20220105163229284](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105163229284.png)
-
-
+![image-20220105163229284](https://user-images.githubusercontent.com/97065309/148284259-6b0c16fc-d440-4ea5-a170-dd66c1b9c5e8.png)
 
 ###### login
 
-![image-20220105164313885](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105164313885.png)
+![image-20220105164313885](https://user-images.githubusercontent.com/97065309/148284367-4526c153-ba25-4f02-949d-deeb65317d5b.png)
 
 Nesta variável iremos inserir o e-mail e senha do nosso gmail da seguinte forma:
 
-![image-20220105164528733](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105164528733.png)
+![image-20220105164528733](https://user-images.githubusercontent.com/97065309/148284420-d7c3d971-335c-4b3c-8ad8-fc628761ae21.png)
 
 nada muito difícil de se entender.
 
 ###### montando todo o e-mail
 
-![image-20220105164221695](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105164221695.png)
+![image-20220105164221695](https://user-images.githubusercontent.com/97065309/148284490-1daf5e2d-3369-4a93-ad49-78025631736c.png)
 
 o comando sender.send, é o comando onde tudo o que definimos acima será utilizado.
 
@@ -111,13 +109,13 @@ O campo **to** recebe a variável **receiver**, que já foi definido acima, é n
 
 O campo **subject** irá receber o Assunto de nosso e-mail, por isso preencha da forma que lhe for nescessário.
 
-![image-20220105164729566](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105164729566.png)
+![image-20220105164729566](https://user-images.githubusercontent.com/97065309/148284542-0a0112b2-56ab-418d-b541-0d5f0790253a.png)
 
 O campo **contents** receberá a variável **message**, que foi definida com o corpo do e-mail e o anexo (caso tenha utilizado o anexo)
 
 E por fim chegamos aos dois últimos comandos.
 
-![image-20220105165053238](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105165053238.png)
+![image-20220105165053238](https://user-images.githubusercontent.com/97065309/148284576-d1a497de-9fed-4095-870a-c88a0fd9662c.png)
 
 Em **cont += 1**, a variável contador que lá em cima do código recebeu o valor de 0, irá se somar com o valor 1, ou seja o código percorrerá cada linha, irá ler o corpo, usuário/senha, anexo e todos os outros comando.
 
