@@ -21,7 +21,7 @@ Logo no topo do código podemos ver as duas bibliotecas que foram importadas. Ex
 duas variáveis  foram declaradas:
 
 - cont = 0 - Será utilizado para percorrer pela lista de e-mails. (Não é necessário modifica-la)
-- e-mails = [] - Será onde armazenaremos os e-mails. (Aqui você irá inserir todos os e-mails destinatários)
+- e-mails = [] - Será onde armazenaremos os e-mails. (Aqui você irá inserir todos os e-mails dos destinatários)
 
 No exemplo abaixo mostrarei como enviar currículos para empresas, mas visando  o seu contexto, pode utilizar para o que for necessário.
 
