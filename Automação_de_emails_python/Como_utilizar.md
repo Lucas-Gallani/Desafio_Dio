@@ -14,7 +14,7 @@ Logo no topo do código podemos ver as duas bibliotecas que foram importadas. Ex
 
 [Link_Doc_time](https://docs.python.org/3/library/time.html?highlight=sleep#time.sleep)
 
-- ### Contador e e-mails
+- ### Contador & emails
 
 ![image-20220105155453353](https://user-images.githubusercontent.com/97065309/148282563-e7443edf-2059-4378-aa89-281ac3019258.png)
 
