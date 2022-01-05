@@ -6,7 +6,7 @@ utilizarei de prints para facilitar o entendimento
 
 - #### Importar as bibliotecas yagmail e time
 
-![image-20220105154805705](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105154805705.png)
+![image-20220105154805705](https://user-images.githubusercontent.com/97065309/148282988-eafaef16-54c3-43a8-a2a4-dda0ed839364.png)
 
 Logo no topo do código podemos ver as duas bibliotecas que foram importadas. Explicarei sobre o uso delas na hora certa. Porém deixarei um link para a documentação de ambas.
 
@@ -16,7 +16,7 @@ Logo no topo do código podemos ver as duas bibliotecas que foram importadas. Ex
 
 - ### Contador e e-mails
 
-![image-20220105155453353](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105155453353.png)
+![image-20220105155453353](https://user-images.githubusercontent.com/97065309/148282563-e7443edf-2059-4378-aa89-281ac3019258.png)
 
 duas variáveis  foram declaradas:
 
@@ -25,13 +25,13 @@ duas variáveis  foram declaradas:
 
 No exemplo abaixo mostrarei como enviar currículos para empresas, mas visando  o seu contexto, pode utilizar para o que for necessário.
 
-![image-20220105160019911](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105160019911.png)
+![image-20220105160019911](https://user-images.githubusercontent.com/97065309/148283105-104f4338-39dd-4447-81a2-ea66f2f76bd2.png)
 
 Você pode inserir quantos e-mails forem necessários, lembrando sempre de separar todos pela virgula e mantê-los dentro dos colchetes. 
 
 - ### While
 
-![image-20220105160404247](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105160404247.png)
+![image-20220105160404247](https://user-images.githubusercontent.com/97065309/148283259-55046d32-b0f8-49cc-ba26-52e5edefc90b.png)
 
 Dentro do meu laço de repetição **while**, foi declarado que enquanto o contador for menos do que a quantidade de itens na variável e-mail, ele prossiga repetindo o laço.
 
@@ -39,7 +39,7 @@ O comando **len(e-mails)** traz a quantia de itens dentro de uma lista
 
 no meu caso
 
-![image-20220105160019911](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105160019911.png)
+![image-20220105160019911](https://user-images.githubusercontent.com/97065309/148283105-104f4338-39dd-4447-81a2-ea66f2f76bd2.png)
 
 O comando: print(len(emails))
 
@@ -51,7 +51,7 @@ Ou seja enquanto o contador for menor do  que 3 ele continua se repetindo.
 
 ###### receiver
 
-![image-20220105161138810](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105161138810.png)
+![image-20220105161138810](https://user-images.githubusercontent.com/97065309/148283351-459f1ee3-330d-471f-97e9-262cf6438e08.png)
 
 Nesta variável será onde pegaremos cada e-mail separadamente, o comando emails[cont], Pegaremos eles pelo índice.
 
@@ -59,11 +59,11 @@ Exemplo:
 
 Por mais que tenhamos 3 itens dentro de emails, em relação a índice eles possuem valores diferentes. 
 
-![image-20220105160019911](C:\Users\lggal\AppData\Roaming\Typora\typora-user-images\image-20220105160019911.png)
+![image-20220105160019911](https://user-images.githubusercontent.com/97065309/148283105-104f4338-39dd-4447-81a2-ea66f2f76bd2.png)
 
-​                                                          ^                                         ^                                      ^
+                  ^                      ^                        ^
 
-​									                      0                                         1                                      2
+		      0                      1                        2
 
 Na foto acima vemos os índices, então quando falamos emails[0] estamos dizendo de **empresa1@gmail.com**, ou emails[1] **empresa2@gmail.com** e assim por diante.
 
